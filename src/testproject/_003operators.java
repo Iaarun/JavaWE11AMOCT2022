@@ -2,7 +2,7 @@ package testproject;
 
 public class _003operators {
 	public static void main(String[] args) {
-		comparisonoperator();
+		findmaxofthree();
 	}
 
 	public static void assignmentoperator() {
@@ -34,6 +34,30 @@ public class _003operators {
 		System.out.println(a!=b);  //true
 		System.out.println(a>=b); //true
 		System.out.println(a<=b); //false
+	}
+	
+	public static void logicalcondition() {
+		int a=10;
+		int b =3;
+		
+		System.out.println((a>b) && (a<b)); //FALSE
+		System.out.println((a>b) && (b<=a));//TRUE
+		System.out.println((a>b) || (a<b)); //TRUE
+	}
+	
+	public static void ternaryOperator() {
+		// (condition)? expression1: expression2
+		
+		int a=10;
+		int b =13;
+		int result= (a<b) ? (a+b): (a*b);
+		System.out.println(result);
+	}
+	
+	public static void findmaxofthree() {
+		int a=24, b=35, c=25;
+	int max=	(a>b)? ((a>c)? a:c): ((b>c)?b:c);
+	System.out.println(max);
 	}
  
 }
