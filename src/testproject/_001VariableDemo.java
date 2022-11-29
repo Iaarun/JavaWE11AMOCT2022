@@ -31,9 +31,9 @@ public class _001VariableDemo {
 		obj1.StName = "Rahul";
 		courseName = "Java";
 		System.out.println(obj1.StName); //Rahul
-		System.out.println(courseName); //Java
+		System.out.println(obj1.courseName); //Java
 		System.out.println(obj2.StName); //Amit
-		System.out.println(courseName); //Java
+		System.out.println(obj2.courseName); //Java
 		
 	}
 
