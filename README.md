@@ -22,8 +22,4 @@ Assignment 3-Dec
   ip: 659823
   op: 6
   
-Pattern1
-"* * * * *
-* * * * * 
-* * * * * 
-* * * * * "
+
