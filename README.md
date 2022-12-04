@@ -1,5 +1,9 @@
 # JavaWE11AMOCT2022
 
+for loop practice programms http://www.beginwithjava.com/java/loops/questions.html
+
+Star patter https://codedost.com/java/star-patterns-in-java/
+
 Assignment 3-Dec
  Take three number inputfrom user. Calculate the % and based on % provide 
  91-100  A+
@@ -12,3 +16,14 @@ Assignment 3-Dec
  
   2- Take two number input from user and perform 
   Arithmetic operation of user choice
+  
+  3- Calculate factorial a number provided by user
+  4- Calculate the digit in a number 
+  ip: 659823
+  op: 6
+  
+Pattern1
+* * * * *
+* * * * * 
+* * * * * 
+* * * * * 
