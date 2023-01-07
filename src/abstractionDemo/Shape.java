@@ -7,6 +7,10 @@ public abstract class Shape {
 		super();
 		this.color = color;
 	}
+	
+	public Shape() {
+		// TODO Auto-generated constructor stub
+	}
 	public abstract void area();
 
 }

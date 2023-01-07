@@ -1,6 +1,6 @@
 package abstractionDemo;
 
-public class Circle extends Shape {
+public class Circle extends Shape  {
 
 	int radius;
 
