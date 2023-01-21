@@ -3,6 +3,7 @@ package collectionsframework;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.TreeSet;
@@ -29,6 +30,29 @@ public class HashSetDemo {
 				System.out.print(x+" ");
 				
 			}
+			
+			System.out.println();
+			System.out.println("Iterate using foreach ");
+			
+			hset.forEach(x->{System.out.print(x+ " ");});
+			
+			System.out.println();
+			System.out.println("Iterate using streams ");
+			
+			hset.stream().forEach(x->{System.out.print(x+ " ");});
+			
+			System.out.println();
+			System.out.println("Iterate using Iterator");
+			
+			Iterator<String> it =  hset.iterator();
+			while(it.hasNext()) {
+				System.out.print(it.next()+" ");
+			}
+		
+			
+			
+			
+		
 	}
 	
 	public void hashsetbasic() {
@@ -51,6 +75,8 @@ public class HashSetDemo {
 		String [] obj= (String[])hset.toArray();
 		
 		HashSet<String> nset = new HashSet<>(Arrays.asList(obj));
+		
+		//14, 15 ,61, 15
 	}
 
 }
