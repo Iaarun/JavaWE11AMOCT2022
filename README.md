@@ -22,4 +22,11 @@ Assignment 3-Dec
   ip: 659823
   op: 6
   
+  Selenium Assignment-1
+  
+  Application to test : 
+
+  http://live.techpanda.org/index.php/
+  Write selenium script to register a user 
+   
 
