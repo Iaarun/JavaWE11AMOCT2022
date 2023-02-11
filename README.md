@@ -28,5 +28,31 @@ Assignment 3-Dec
 
   http://live.techpanda.org/index.php/
   Write selenium script to register a user 
+  
+  =========================================================
+Selenium Assignment
+
+Selenium Assignement
+
+Launch Chrome Open "https://ecommerce-playground.lambdatest.io/index.php?route=common/home" </br>
+Click on Myaccount >> Login </br>
+Provide valid details </br>
+click on login button </br>
+Print all option from right menulist </br>
+Print all option under myaccount section </br>
+Print all option under my order section </br>
+
+
+Print First name account creation msg </br?
+
+
+Launch Facebook </br>
+Click on create new account </br>
+Click on name field </br>
+Without sending data click on surname field </br>
+Click on red exclamatory sign in name field </br>
+Print the error message </br>
+
+  
    
 
